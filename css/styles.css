@@ -600,7 +600,9 @@ ul {
     min-width: 100vw;
     opacity: 1;
     background: var(--navybluemodal-color, rgba(46, 47, 66, 0.40));
-     
+    top: 0;
+    left: 0;
+    
 }
 
 .modal-window.is-hidden {
@@ -610,7 +612,7 @@ ul {
 }
 
 .modal-window-body {
-    position: relative;
+    position: absolute;
     width: 408px;
     height: 584px;
     flex-shrink: 0;
@@ -629,6 +631,7 @@ ul {
     background-color: var(--cornflower-color);
     padding: 0;
     border-radius: 50%;
+    border: 1px solid rgba(0, 0, 0, 0.10);
     display: flex;
     justify-content: center;
     align-items: center;
