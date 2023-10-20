@@ -489,7 +489,7 @@ ul {
     justify-content: center;
     flex-shrink: 0;
     color: var(--lightslate-color);
-    transition: background-color var(--mytransition-duration) var(--mytransition-timing-function), color var(--mytransition-duration) var(--mytransition-timing-function);
+    transition: border-color var(--mytransition-duration) var(--mytransition-timing-function), color var(--mytransition-duration) var(--mytransition-timing-function);
 }
 
 .link-customers:hover {
@@ -549,6 +549,7 @@ ul {
     display: flex;
     align-items: center;
     justify-content: center;
+    transition: background-color var(--mytransition-duration) var(--mytransition-timing-function);
 }
 
 .footer-link-social-media:hover {
