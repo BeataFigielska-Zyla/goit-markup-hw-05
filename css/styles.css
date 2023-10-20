@@ -395,7 +395,10 @@ ul {
     border: 1px solid var(--cornflower-color);
     border-radius: 4px;
 
-    transition: color var(--mytransition-duration) var(--mytransition-timing-function), background-color var(--mytransition-duration) var(--mytransition-timing-function), border var(--mytransition-duration) var(--mytransition-timing-function), box-shadow var(--mytransition-duration) var(--mytransition-timing-function);
+    transition: color var(--mytransition-duration) var(--mytransition-timing-function), 
+    background-color var(--mytransition-duration) var(--mytransition-timing-function), 
+    border var(--mytransition-duration) var(--mytransition-timing-function), 
+    box-shadow var(--mytransition-duration) var(--mytransition-timing-function);
 }
 
 .button-text:hover {
