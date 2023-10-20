@@ -210,18 +210,39 @@ ul {
 
 .link-portfolio {
     display: block;
+    transition: box-shadow var(--mytransition-duration) var(--mytransition-timing-function);
 }
 
-.link-portfolio:hover {
-    box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08),
-        0px 1px 1px 0px rgba(46, 47, 66, 0.16),
-        0px 1px 6px 0px rgba(46, 47, 66, 0.08);
-}
-
+.link-portfolio:hover,
 .link-portfolio:focus {
     box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08),
         0px 1px 1px 0px rgba(46, 47, 66, 0.16),
         0px 1px 6px 0px rgba(46, 47, 66, 0.08);
+    transform: translateX(0%) translateY(0%);
+}
+
+.portfolio-project-pop-up {
+    position: relative;
+    overflow: hidden;
+
+}
+.portfolio-project-pop-up-text {
+    position: absolute;
+    top: 0;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--cloud-color);
+    background-color: var(--iris-color);
+    padding-top: 40px;
+    padding-left: 32px;
+    padding-right: 32px;
+    height: 100%;
+    width: 100%;
+    transform: translateY(100%);
+    transition: transform var(--mytransition-duration) var(--mytransition-timing-function)
 }
 
 .projects {
