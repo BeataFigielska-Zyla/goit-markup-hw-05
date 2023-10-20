@@ -101,11 +101,13 @@ ul {
 
 .accent {
     position: relative;
+    color: var(--ocean-color);
+    transition: var(--mytransition-duration) var(--mytransition-timing-function);
 }
 .accent::after {
     position: absolute;
     left: 0;
-    bottom: -4px;
+    bottom: -1px;
     content: '';
     width: 100%;
     height: 4px;
@@ -123,6 +125,7 @@ ul {
     line-height: 1.5;
     letter-spacing: 0.02em;
     padding: 24px 0;
+    transition: var(--mytransition-duration) var(--mytransition-timing-function);
 }
 
 .contact-link:hover {
