@@ -245,10 +245,13 @@ ul {
     transition: transform var(--mytransition-duration) var(--mytransition-timing-function)
 }
 
-.pop-up:hover .pop-up-text
-.pop-up:focus .pop-up-text {
+.link-portfolio:hover .pop-up-text{
     transform: translateY(0%);
 }
+
+.link-portfolio:focus .pop-up-text{
+        transform: translateY(0%);
+    }
 
 .projects {
     padding: 32px 16px;
