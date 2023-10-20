@@ -609,6 +609,7 @@ ul {
     opacity: 0;
     pointer-events: none;
     visibility: hidden;
+
 }
 
 .modal-window-body {
@@ -619,7 +620,10 @@ ul {
     border-radius: 4px;
     background: var(--dairy-color);
     box-shadow: 0px 2px 1px 0px rgba(0, 0, 0, 0.20), 0px 1px 3px 0px rgba(0, 0, 0, 0.12), 0px 1px 1px 0px rgba(0, 0, 0, 0.14);
+  
 }
+
+
 
 .button-close {
     cursor: pointer;
@@ -644,3 +648,4 @@ ul {
     fill: var(--white-color);
     border: none;
 }
+
