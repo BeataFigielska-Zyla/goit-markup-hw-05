@@ -640,8 +640,8 @@ ul {
     background: var(--navybluemodal-color, rgba(46, 47, 66, 0.40));
     top: 0;
     left: 0;
-    transition: opacity var(--mytransition-duration) var(--mytransition-timing-function);
-    
+    transition: opacity var(--mytransition-duration) var(--mytransition-timing-function), visibility var(--mytransition-duration) var(--mytransition-timing-function);
+  
 }
 
 .modal-window.is-hidden {
