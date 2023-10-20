@@ -99,11 +99,6 @@ ul {
     color: var(--cloud-color);
 }
 
-.accent {
-    position: relative;
-    color: var(--ocean-color);
-    transition: color var(--mytransition-duration) var(--mytransition-timing-function);
-}
 .accent::after {
     position: absolute;
     left: 0;
@@ -146,6 +141,12 @@ ul {
     letter-spacing: 0.02em;
     color: var(--navyblue-color);
     padding: 24px 0;
+}
+
+.accent {
+    position: relative;
+    transition: color var(--mytransition-duration) var(--mytransition-timing-function);
+    color: var(--ocean-color);
 }
 
 .nav-link:hover {
