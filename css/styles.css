@@ -394,6 +394,7 @@ ul {
     padding: 12px 24px;
     border: 1px solid var(--cornflower-color);
     border-radius: 4px;
+
     transition: color var(--mytransition-duration) var(--mytransition-timing-function), background-color var(--mytransition-duration) var(--mytransition-timing-function), border var(--mytransition-duration) var(--mytransition-timing-function), box-shadow var(--mytransition-duration) var(--mytransition-timing-function);
 }
 
@@ -688,14 +689,11 @@ ul {
 .button-close:focus {
     background-color: var(--ocean-color);
     border: none;
+    fill: var(--white-color);
 }
 
 .svg-close {
     transition: fill var(--mytransition-duration) var(--mytransition-timing-function);
 }
 
-.svg-close:hover,
-.svg-close:focus {
-    fill: var(--white-color);
-}
 
